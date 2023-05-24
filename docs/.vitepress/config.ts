@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'eXtreme Programming',
   description: 'eXtreme Programming',
-  base: '/xp/', //  The default path during deployment / secondary address / base can be used/
+  base: '/extreme-programming/', //  The default path during deployment / secondary address / base can be used/
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
