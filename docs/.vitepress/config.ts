@@ -7,10 +7,11 @@ export default defineConfig({
   base: '/extreme-programming/', //  The default path during deployment / secondary address / base can be used/
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/mylogo.png',
     nav: [
       { text: 'Inicio', link: '/' },           
       { text: 'Comenzar', link: '/start/intro' },
-      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' }, 
+      { text: 'ecanquiz', link: 'https://ecanquiz.github.io/' }, 
     ],
     sidebar: [
       {
@@ -60,7 +61,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CaribesTIC/xp' }
+      { icon: 'github', link: 'https://github.com/ecanquiz/extreme-programming' }
     ]
   }
 })
